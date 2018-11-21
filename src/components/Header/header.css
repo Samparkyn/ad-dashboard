@@ -27,11 +27,13 @@
 }
 
 .header__link {
-  color: rgb(121, 118, 118);	
+  color: #9b9b9b;
   font-size: 16px;	
   text-decoration: none;
   text-align: center;
-  padding-left: 40px
+  padding-left: 40px;
+  font-weight: bold;
+  font-family: europa, sans-serif;
 }
 
 .header__link:hover {
@@ -54,4 +56,9 @@
 .icon {
   opacity: 0.55;
   padding-right: 15px;
+}
+
+.logo-image {
+  /* maybe need to change this width - to start out this 133px is from adding width of icon + space + width of nanos text on designs */
+  width: 133px;
 }
