@@ -1,6 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
+import SettingsIcon from '@material-ui/icons/Settings'
+import SchoolIcon from '@material-ui/icons/School'
 import './header.css'
 
 const Header = () => {
@@ -8,14 +10,20 @@ const Header = () => {
     <div className="header">
       <div className="header__wrapper">
         <div className="header__container-left">
-          <Link className="header__link" to="/">
+          <NavLink activeClassName="active-link" className="header__link" to="/">
             <img src="/Nanos-logo.png" alt="logo"></img>
-          </Link>
+          </NavLink>
         </div>
         <div className="header__container-right">
-          <Link className="header__link" to="/overview">NanosU</Link>
-          <Link className="header__link" to="/settings">Settings</Link>
-          <Link className="header__link" to="/account">Julia Smith</Link>
+          <NavLink activeClassName="active-link" className="header__link" to="/overview">
+            <SchoolIcon className="icon" />
+            NanosU
+          </NavLink>
+          <NavLink activeClassName="active-link" className="header__link" to="/settings">
+            <SettingsIcon className="icon" />
+            Settings
+          </NavLink>
+          <NavLink activeClassName="active-link" className="header__link" to="/account">Julia Smith</NavLink>
           <img className="avatar" src="/mock-user-avatar.jpg" alt="avatar"></img>
         </div>
       </div>
