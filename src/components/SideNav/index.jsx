@@ -2,13 +2,13 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 import PublicIcon from '@material-ui/icons/Public'
-import './sidenav.css'
+import './sidenav.scss'
 
 const SideNav = () => {
   return (
     <div className="sidenav">
-      <div className="sidenav-container">
-        <NavLink activeClassName="active-link" className="sidenav__link" to="/campgains">
+      <div className="sidenav__container">
+        <NavLink activeClassName="active-link" className="sidenav__link" to="/campaign-overview">
           <PublicIcon className="icon" />
           Campaigns
         </NavLink>
