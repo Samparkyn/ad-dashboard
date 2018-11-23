@@ -1,0 +1,64 @@
+.campaign {
+
+  &__container {
+    box-shadow: 2px 2px 12px 0 rgba(0,0,0,.15);
+    flex: 1;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: europa, sans-serif;
+  }
+
+  &__impressions,
+  &__status {
+  }
+
+  &__image {
+    width: 107px;
+    height: 74px;
+  }
+
+  &__info {
+    width: 227px;
+
+    &-name {
+      color: #4a4a4a;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    &-details {
+      color: #6e7379;
+      font-size: 15px;
+    }
+  }
+
+  &__clicks {
+    
+  }
+
+  &__impressions {
+
+  }
+
+  &__status {
+    border: solid 1px #ea4335;
+    border-radius: 25px;
+    width: 91px;
+    height: 32px;
+    color: #ea4335;
+  }
+
+  &__social {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.percentage {
+  color: #7ed321;
+  font-size: 18px;
+}
