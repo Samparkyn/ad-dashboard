@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Sonnegstrasse Apartment",
+    "company_name": "Ursapharm",
+    "start_date": "15/8/2018",
+    "stats": {
+      "no_of_clicks": 43,
+      "clicks_percent_change": 18,
+      "impressions": 1108,
+      "impressions_percent_change": 22
+    },
+    "status": "Paused",
+    "image": "/heart-paw-print.png"
+  },
+  {
+    "name": "Doggy Day Care",
+    "company_name": "4Paws",
+    "start_date": "22/8/2018",
+    "stats": {
+      "no_of_clicks": 56,
+      "clicks_percent_change": 10,
+      "impressions": 1308,
+      "impressions_percent_change": 2
+    },
+    "status": "Published",
+    "image": "/heart-paw-print.png"
+  },
+  {
+    "name": "Dog grooming",
+    "company_name": "4Paws",
+    "start_date": "22/8/2018",
+    "stats": {
+      "no_of_clicks": 43,
+      "clicks_percent_change": 18,
+      "impressions": 1108,
+      "impressions_percent_change": 25
+    },
+    "status": "Reviewing",
+    "image": "/heart-paw-print.png"
+  },
+  {
+    "name": "Dog training",
+    "company_name": "4Paws",
+    "start_date": "12/10/2018",
+    "stats": {
+      "no_of_clicks": 101,
+      "clicks_percent_change": 7,
+      "impressions": 108,
+      "impressions_percent_change": 5
+    },
+    "status": "Published",
+    "image": "/heart-paw-print.png"
+  }
+]
