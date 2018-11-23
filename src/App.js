@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import { Router } from 'react-router'
+
+import Header from './components/Header/index'
+import SideNav from './components/SideNav/index'
+import Grid from '@material-ui/core/Grid/Grid'
 //import { Provider } from 'react-redux'
 // import { createStore } from 'redux'
 import './App.scss';
@@ -13,12 +17,20 @@ const history = createBrowserHistory()
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        {/* <Provider store={store}> */}
+      <div className="app">
         <Router history={history}>
-          <Routes />
+          <>
+            <Header />
+            <Grid container spacing={0} className="app__content">
+              <Grid item xs={3}>
+                <SideNav />
+              </Grid>
+              <Grid item xs={9}>
+                <Routes />
+              </Grid>
+            </Grid>
+          </>
         </Router>
-        {/* </Provider> */}
       </div>
     );
   }
