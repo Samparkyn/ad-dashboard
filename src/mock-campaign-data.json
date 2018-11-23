@@ -7,10 +7,42 @@
       "no_of_clicks": 43,
       "clicks_percent_change": 18,
       "impressions": 1108,
-      "impressions_percent_change": 22
+      "impressions_percent_change": 22,
+      "avg_cpc": 1.20
     },
     "status": "Paused",
-    "image": "/heart-paw-print.png"
+    "image": "/heart-paw-print.png",
+    "budget_remaining": 420,
+    "days_remaining": 6,
+    "social_media": {
+      "facebook": {
+        "clicks": 28,
+        "clicks_percent_change": 10,
+        "impressions": 435,
+        "impressions_percent_change": 22,
+        "cpc": 0.23,
+        "cpc_percentage_change": 6,
+        "budget_remaining": 140
+      },
+      "instagram": {
+        "clicks": 38,
+        "clicks_percent_change": 10,
+        "impressions": 150,
+        "impressions_percent_change": 22,
+        "cpc": 0.23,
+        "cpc_percentage_change": 6,
+        "budget_remaining": 140
+      },
+      "google": {
+        "clicks": 12,
+        "clicks_percent_change": 10,
+        "impressions": 240,
+        "impressions_percent_change": 22,
+        "cpc": 0.21,
+        "cpc_percentage_change": 6,
+        "budget_remaining": 140
+      }
+    }
   },
   {
     "name": "Doggy Day Care",
@@ -20,10 +52,42 @@
       "no_of_clicks": 56,
       "clicks_percent_change": 10,
       "impressions": 1308,
-      "impressions_percent_change": 2
+      "impressions_percent_change": -2,
+      "avg_cpc": 1.20
     },
     "status": "Published",
-    "image": "/heart-paw-print.png"
+    "image": "/heart-paw-print.png",
+    "budget_remaining": 420,
+    "days_remaining": 6,
+    "social_media": {
+      "facebook": {
+        "clicks": 38,
+        "clicks_percent_change": 10,
+        "impressions": 15,
+        "impressions_percent_change": 22,
+        "cpc": 0.23,
+        "cpc_percentage_change": 6,
+        "budget_remaining": 140
+      },
+      "instagram": {
+        "clicks": 38,
+        "clicks_percent_change": 10,
+        "impressions": 15,
+        "impressions_percent_change": 22,
+        "cpc": 0.23,
+        "cpc_percentage_change": 6,
+        "budget_remaining": 140
+      },
+      "google": {
+        "clicks": 38,
+        "clicks_percent_change": 10,
+        "impressions": 15,
+        "impressions_percent_change": 22,
+        "cpc": 0.23,
+        "cpc_percentage_change": 6,
+        "budget_remaining": 140
+      }
+    }
   },
   {
     "name": "Dog grooming",
@@ -33,10 +97,42 @@
       "no_of_clicks": 43,
       "clicks_percent_change": 18,
       "impressions": 1108,
-      "impressions_percent_change": 25
+      "impressions_percent_change": 25,
+      "avg_cpc": 1.20
     },
     "status": "Reviewing",
-    "image": "/heart-paw-print.png"
+    "image": "/heart-paw-print.png",
+    "budget_remaining": 420,
+    "days_remaining": 6,
+    "social_media": {
+      "facebook": {
+        "clicks": 38,
+        "clicks_percent_change": 10,
+        "impressions": 15,
+        "impressions_percent_change": 22,
+        "cpc": 0.23,
+        "cpc_percentage_change": 6,
+        "budget_remaining": 140
+      },
+      "instagram": {
+        "clicks": 38,
+        "clicks_percent_change": 10,
+        "impressions": 15,
+        "impressions_percent_change": 22,
+        "cpc": 0.23,
+        "cpc_percentage_change": 6,
+        "budget_remaining": 140
+      },
+      "google": {
+        "clicks": 38,
+        "clicks_percent_change": 10,
+        "impressions": 15,
+        "impressions_percent_change": 22,
+        "cpc": 0.23,
+        "cpc_percentage_change": 6,
+        "budget_remaining": 140
+      }
+    }
   },
   {
     "name": "Dog training",
@@ -44,11 +140,40 @@
     "start_date": "12/10/2018",
     "stats": {
       "no_of_clicks": 101,
-      "clicks_percent_change": 7,
+      "clicks_percent_change": -7,
       "impressions": 108,
-      "impressions_percent_change": 5
+      "impressions_percent_change": -5,
+      "avg_cpc": 1.20
     },
     "status": "Published",
-    "image": "/heart-paw-print.png"
+    "image": "/heart-paw-print.png",
+    "budget_remaining": 420,
+    "days_remaining": 6,
+    "social_media": {
+      "facebook": {
+        "clicks": 38,
+        "clicks_percent_change": 10,
+        "impressions": 15,
+        "cpc": 0.23,
+        "cpc_percentage_change": 6,
+        "budget_remaining": 140
+      },
+      "instagram": {
+        "clicks": 38,
+        "clicks_percent_change": 10,
+        "impressions": 15,
+        "cpc": 0.23,
+        "cpc_percentage_change": 6,
+        "budget_remaining": 140
+      },
+      "google": {
+        "clicks": 38,
+        "clicks_percent_change": 10,
+        "impressions": 15,
+        "cpc": 0.23,
+        "cpc_percentage_change": 6,
+        "budget_remaining": 140
+      }
+    }
   }
 ]
