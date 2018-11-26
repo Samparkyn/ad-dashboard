@@ -5,11 +5,10 @@ import { CampaignRow } from '../CampaignRow/index'
 import './campaign-list.scss'
 
 const campaignData = require('../../mock-campaign-data.json')
-console.log('data', campaignData)
 
 const campaignRows = campaignData.map(campaign => {
   return (
-    <Link className="row__link" to="/">
+    <Link className="row__link" to={`/campaign/${campaign.id}`}>
       <CampaignRow campaign={campaign} />
     </Link>
   )
