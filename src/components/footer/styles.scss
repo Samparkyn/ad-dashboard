@@ -1,9 +1,16 @@
+@import "../../variables";
+
 .footer {
   text-align: center;
-  color: #9b9b9b;
+  color: $color-grey;
   font-size: 14px;
+  display: inline-flex;
+  justify-content: center;
+  margin: 100px auto 30px auto;
+  border-top: 1px solid $color-grey;
 
   &__copyright {
     font-weight: bold;
+    margin-right: 2px;
   }
 }

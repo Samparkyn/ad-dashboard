@@ -21,15 +21,15 @@ class App extends Component {
         <Router history={history}>
           <>
             <Header />
-            <Grid container spacing={0} className="app__content">
+            <Grid container spacing={0}>
               <Grid item xs={2}>
                 <SideNav />
               </Grid>
-              <Grid item xs={10}>
+              <Grid className="app__content" item xs={10}>
                 <Routes />
+                <Footer />
               </Grid>
             </Grid>
-            <Footer />
           </>
         </Router>
       </div>

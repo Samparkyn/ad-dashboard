@@ -12,6 +12,9 @@
 
   &__content {
     padding: 0 $spacing-lg;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
 }
 
