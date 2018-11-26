@@ -23,7 +23,9 @@ export const CampaignOverviewNav = ({ campaign }) => {
       </NavLink>
       </div>
       <div className="overview-nav__container__right">
-        <CampaignStatus campaign={campaign} />
+        <div className="overview-nav__container__right__status">
+          <CampaignStatus campaign={campaign} />
+        </div>
         <SocialMediaIcons />
       </div>
     </div>

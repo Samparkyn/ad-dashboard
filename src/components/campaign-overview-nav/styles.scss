@@ -17,6 +17,10 @@
       margin-left: auto;
       display: flex;
       align-items: center;
+
+      &__status {
+        margin-right: $spacing-lg;
+      }
     }
   }
   

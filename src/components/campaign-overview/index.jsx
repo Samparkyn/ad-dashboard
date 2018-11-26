@@ -15,7 +15,7 @@ export class CampaignOverview extends Component {
   }
 
   render() {
-    const { campaign } = this.props;
+    const { campaign = {} } = this.props;
 
     if (!campaign.stats) {
       return null
@@ -90,7 +90,7 @@ export class CampaignOverview extends Component {
 
 CampaignOverview.propTypes = {
   loading: bool.isRequired,
-  campaign: object.isRequired,
+  campaign: object,
   dispatch: func.isRequired
 }
 
