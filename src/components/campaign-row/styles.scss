@@ -2,11 +2,7 @@
 
 .campaign {
   &__container {
-    // padding: $spacing-md $spacing-lg $spacing-lg $spacing-sm;
-    padding-left: $spacing-md;
-    padding-right: $spacing-lg;
     padding-top: 10px;
-    // box-shadow: 2px 2px 12px 0 rgba(0,0,0,.15);
     border-bottom: 1px solid rgba(0, 0, 0, .15);
     flex: 1;
     color: black;
@@ -48,7 +44,7 @@
     min-width: 100px;
   }
 
-  &__status {
+  &__status__wrapper {
     width: 20%;
   }
 }

@@ -1,15 +1,23 @@
-.list__container {
+.list {
+  &__container {
   display: flex;
   flex-direction: column;
 
-  button {
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    width: 224px;
-    height: 48px;
-    border-radius: 8px;
-    background-image: linear-gradient(to right, #3274dd, #1bd3b4);
+  &__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+    button {
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      width: 224px;
+      height: 48px;
+      border-radius: 8px;
+      background-image: linear-gradient(to right, #3274dd, #1bd3b4);
+    }
   }
 }
 

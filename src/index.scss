@@ -10,11 +10,15 @@
   max-width: 1440px;
   margin: 0 auto;
 
+  &__container {
+    display: flex;
+  }
+
   &__content {
     padding: 0 $spacing-lg;
-    justify-content: center;
     display: flex;
     flex-direction: column;
+    flex: 1;
   }
 }
 
