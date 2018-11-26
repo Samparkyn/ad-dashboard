@@ -22,10 +22,10 @@ class App extends Component {
           <>
             <Header />
             <Grid container spacing={0} className="app__content">
-              <Grid item xs={3}>
+              <Grid item xs={2}>
                 <SideNav />
               </Grid>
-              <Grid item xs={9}>
+              <Grid item xs={10}>
                 <Routes />
               </Grid>
             </Grid>

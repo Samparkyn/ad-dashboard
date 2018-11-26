@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Europa';
+  src: local('Europa'), url('./fonts/europa.ttf') format('woff');
+}
+
+body {
+  font-family: 'Europa';
+  font-size: 1rem;
+}
+
 .app {
   height: 100%;
 
