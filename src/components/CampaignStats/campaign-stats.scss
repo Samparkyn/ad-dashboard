@@ -1,0 +1,34 @@
+.campaign-stats {
+
+  &__container {
+    display: flex;
+  }
+
+  &__details {
+    text-align: right;
+  }
+  
+  &__number {
+    color: #000000;
+    font-size: 30px;
+  }
+  &__label {
+    color: #9b9b9b;
+    font-size: 15px;
+  }
+
+  &__percentage {
+    spacing-top: 7px;
+    margin-left: 7px;
+    font-weight: 600;
+    font-size: 14px;
+
+    &-green {
+      color: #7ed321;
+    }
+
+    &-red {
+      color: #ea4335;
+    }
+  }
+}
