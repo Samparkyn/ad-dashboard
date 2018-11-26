@@ -1,28 +1,36 @@
+@import "../../variables";
+
 .campaign {
 
   &__container {
-    box-shadow: 2px 2px 12px 0 rgba(0,0,0,.15);
+    // padding: $spacing-md $spacing-lg $spacing-lg $spacing-sm;
+    padding-left: $spacing-md;
+    padding-right: $spacing-lg;
+    padding-top: 10px;
+    // box-shadow: 2px 2px 12px 0 rgba(0,0,0,.15);
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
     flex: 1;
     color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    justify-content: flex-start;
     font-family: europa, sans-serif;
-  }
-
-  &__impressions,
-  &__status {
+    height: calc(#{$campaign-row-height} - 10px);
+    display: flex;
+    align-items: center;
   }
 
   &__image {
-    width: 107px;
-    height: 74px;
-  }
+    height: 60%;
 
+    &__wrapper {
+      width: 10%;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+  }
+  
   &__info {
-    width: 227px;
+    width: 40%;
 
     &-name {
       color: #4a4a4a;
@@ -31,34 +39,56 @@
     }
 
     &-details {
+      margin-top: $spacing-tiny;
       color: #6e7379;
       font-size: 15px;
     }
   }
 
-  &__clicks {
-    
-  }
-
-  &__impressions {
-
+  &__stats-container {
+    width: 10%;
+    min-width: 100px;
   }
 
   &__status {
-    border: solid 1px #ea4335;
-    border-radius: 25px;
-    width: 91px;
-    height: 32px;
-    color: #ea4335;
+
+    &__container {
+      width: 20%;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__button {
+      font-weight: 500;
+      border-radius: 25px;
+      width: 91px;
+      height: 32px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+  
+      &-published {
+        border: solid 2px #1bd3b4;
+        color: #1bd3b4;
+      }
+      &-reviewing {
+        border: solid 2px #f0cc18;
+        color: #f0cc18;
+      }
+      &-paused {
+        border: solid 2px #ea4335;
+        color: #ea4335;
+      }
+    }
   }
 
   &__social {
     display: flex;
     flex-direction: row;
-  }
-}
+    margin-left: auto;
 
-.percentage {
-  color: #7ed321;
-  font-size: 18px;
+    > div + div {
+      margin-left: 1rem;
+    }
+  }
 }
