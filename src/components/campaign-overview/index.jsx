@@ -18,11 +18,16 @@ export const CampaignOverview = ({ match }) => {
   const cpcPercentage = campaign.stats.cpc_percent_change;
   const budgetLeft = campaign.budget_remaining;
   const daysLeft = campaign.days_remaining;
+  const date = new Date(campaign.start_date).toLocaleDateString("en-en", {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric'
+  });
 
   const campaignDetails = (
     <div className="campaign-overview__details__container">
       <div className="campaign-overview__details__name">{campaign.name}</div>
-      <div className="campaign-overview__details__date">Started on {campaign.start_date}</div>
+      <div className="campaign-overview__details__date">Started on <span>{date}</span></div>
     </div>
   )
 

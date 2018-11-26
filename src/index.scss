@@ -1,3 +1,5 @@
+@import "variables";
+
 @font-face {
   font-family: 'Europa';
   src: local('Europa'), url('./fonts/europa.ttf') format('woff');
@@ -5,9 +7,11 @@
 
 .app {
   height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 
   &__content {
-    display: flex;
+    padding: 0 $spacing-lg;
   }
 }
 

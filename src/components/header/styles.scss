@@ -1,3 +1,5 @@
+@import "../../variables";
+
 .active-link {
   color: #1bd3b4;
 }
@@ -9,11 +11,10 @@
   display: flex;
   justify-content: center;
 
-
   &__wrapper {
-    max-width: 1024px;
     width: 100%;
     display: flex;
+    padding: 0 $spacing-md;
   }
 
   &__container-left,
@@ -27,16 +28,35 @@
   }
 
   &__link {
-    color: #9b9b9b;
-    font-size: 16px;	
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-grey;
     text-decoration: none;
     text-align: center;
-    padding-left: 40px;
     font-family: europa, sans-serif;
+
+    & + & {
+      margin-left: $spacing-lg;
+    }
+
+    svg {
+      height: 18px;
+      width: 18px;
+    }
+
+    &-active {
+      font-weight: bold;
+      color: $color-blue-0;
+
+      svg {
+        fill: $color-blue-0;
+      }
+    }
   }
 
   &__link:hover {
-    color: #1bd3b4;
+    color: $color-blue-0;
   }
 
   &__user-link {
@@ -48,14 +68,15 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin: 20px;
+  margin-left: $spacing-sm;
   object-fit: cover;
   object-position: center right;
 }
 
 .icon {
+  height: 10px;
   opacity: 0.55;
-  padding-right: 15px;
+  margin-right: 15px;
 }
 
 .logo-image {

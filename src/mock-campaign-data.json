@@ -3,7 +3,7 @@
     "name": "Sonnegstrasse Apartment",
     "id": 1,
     "company_name": "Ursapharm",
-    "start_date": "15/8/2018",
+    "start_date": "8/15/2018",
     "stats": {
       "no_of_clicks": 43,
       "clicks_percent_change": 18,
@@ -50,7 +50,7 @@
     "name": "Doggy Day Care",
     "id": 2,
     "company_name": "4Paws",
-    "start_date": "22/8/2018",
+    "start_date": "8/22/2018",
     "stats": {
       "no_of_clicks": 56,
       "clicks_percent_change": 10,
@@ -97,7 +97,7 @@
     "name": "Dog grooming",
     "id": 3,
     "company_name": "4Paws",
-    "start_date": "22/8/2018",
+    "start_date": "8/22/2018",
     "stats": {
       "no_of_clicks": 43,
       "clicks_percent_change": 18,
@@ -144,7 +144,7 @@
     "name": "Dog training",
     "company_name": "4Paws",
     "id": 4,
-    "start_date": "12/10/2018",
+    "start_date": "10/12/2018",
     "stats": {
       "no_of_clicks": 101,
       "clicks_percent_change": -7,
@@ -171,7 +171,7 @@
         "clicks_percent_change": 10,
         "impressions": 15,
         "cpc": 0.23,
-        "cpc_percentage_change": 6,
+        "cpc_percentage_change": -6,
         "budget_remaining": 140
       },
       "google": {

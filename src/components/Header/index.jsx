@@ -15,7 +15,7 @@ const Header = () => {
           </NavLink>
         </div>
         <div className="header__container-right">
-          <NavLink activeClassName="active-link" className="header__link" to="/campaigns">
+          <NavLink activeClassName="active-link" className="header__link header__link-active" to="/campaigns">
             <SchoolIcon className="icon" />
             NanosU
           </NavLink>

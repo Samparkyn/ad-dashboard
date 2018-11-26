@@ -4,32 +4,40 @@
 
   &__details {
     &__container {
-      margin-left: $spacing-lg;
+      margin-bottom: $spacing-lg;
     }
+
     &__name {
-
+      font-weight: 600;
+      font-size: $font-size-large;
     }
-    &__date {
 
+    &__date {
+      margin-top: $spacing-sm;
+      color: $color-grey-0;
+
+      span {
+        font-weight: 600;
+      }
     }
   }
   
   &__stats {
-    width: 100%;
-    margin-right: $spacing-lg;
-    margin-left: 33px;
+    width: 75%;
+    margin-left: auto;
 
     &__container {
-    display: flex;
+      display: flex;
     }
 
     &__image {
-      height: 100%;
-      width: 100%;
+      height: 100px;
 
       &__wrapper {
-      height: 139px;
-      width: 201px;
+        width: 25%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
       }
     }
 
@@ -38,29 +46,40 @@
       font-weight: bold;
     }
 
-      &__content {
-        display: flex;
-        margin-top: 13px;
+    &__content {
+      display: flex;
+      margin-top: $spacing-tiny;
 
       &__inner {
         display: flex;
-        width: 80%;
-        padding-right: 96px;
+        flex: 1;
+        margin-bottom: $spacing-lg;
+
+        .campaign-stats {
+          &__container {
+            width: 33%;
+          }
+
+          &__number {
+            font-size: $font-size-huge;
+          }
+
+          &__percentage {
+            margin-top: $spacing-sm;
+          }
+        }
       }
             
       &__budget {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        margin-left: auto;
       }
     }
   }
 
   &__breakdown {
-    &__container {
-      margin-left: $spacing-lg;
-      margin-right: 33px;
-    }
     &__header {
       border-bottom: solid 1px #a4a4a4;
       font-weight: bold;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { string, number } from 'prop-types';
 import { CampaignStats } from '../campaign-stats';
+import { parseMoney } from '../../utils/parse-money';
 import './styles.scss'
 
 const rowsStructure = [
@@ -37,10 +38,10 @@ export const CampaignBreakdown = ({ campaign }) => {
           <CampaignStats value={data.impressions} percentageChange={data.impressions_percent_change} label="impressions" />
         </div>
         <div className="campaign-breakdown__cpc">
-          <CampaignStats value={data.cpc} percentageChange={data.cpc_percent_change} label="cost/click $" />
+          <CampaignStats value={data.cpc} percentageChange={data.cpc_percentage_change} label="cost/click $" />
         </div>
         <div className="campaign-breakdown__budget">
-          <CampaignStats value={data.budget_remaining} label="budget left $" />
+          <CampaignStats value={parseMoney(data.budget_remaining)} label="budget left $" />
         </div>
       </div>
     );
