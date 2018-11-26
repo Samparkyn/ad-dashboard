@@ -1,5 +1,5 @@
 import React from 'react';
-import { string, number } from 'prop-types';
+import { object } from 'prop-types';
 import { CampaignStats } from '../campaign-stats';
 import { parseMoney } from '../../utils/parse-money';
 import './styles.scss'
@@ -55,10 +55,5 @@ export const CampaignBreakdown = ({ campaign }) => {
 };
 
 CampaignBreakdown.propTypes = {
-  // the actual number count to display (eg. 14000)
-  value: number.isRequired,
-  // the percentage value (eg. 10 or -20)
-  percentageChange: number,
-  // text to show under the value (eg. "clicks" or "impressions" )
-  label: string.isRequired
+  campaign: object.isRequired,
 }

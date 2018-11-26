@@ -19,13 +19,11 @@ export class CampaignList extends Component {
       return <div>Loading...</div>
     };
 
-    const campaignRows = campaigns.map(campaign => {
-      return (
-        <Link className="row__link" to={`/campaign/${campaign.id}`}>
-          <CampaignRow campaign={campaign} />
-        </Link>
-      )
-    })
+    const campaignRows = campaigns.map(campaign => (
+      <Link key={campaign.id} className="row__link" to={`/campaign/${campaign.id}`}>
+        <CampaignRow campaign={campaign} />
+      </Link>
+    ))
 
     return (
       <div className="list__container">

@@ -9,16 +9,16 @@ export const CampaignOverviewNav = ({ campaign }) => {
   return (
     <div className="overview-nav__container">
       <div className="overview-nav__container__left">
-        <NavLink item xs={1} className="overview-nav__link overview-nav__link-active" to="#">
+        <NavLink className="overview-nav__link overview-nav__link-active" to="#">
           Overview
       </NavLink>
-        <NavLink item xs={1} className="overview-nav__link" to="#">
+        <NavLink className="overview-nav__link" to="#">
           Targeting
       </NavLink>
-        <NavLink item xs={1} className="overview-nav__link" to="#">
+        <NavLink className="overview-nav__link" to="#">
           Budget
       </NavLink>
-        <NavLink item xs={2} className="overview-nav__link" to="#">
+        <NavLink className="overview-nav__link" to="#">
           Customize Ads
       </NavLink>
       </div>
