@@ -42,7 +42,7 @@ export const CampaignRow = ({ campaign }) => {
       {campaignInfo}
       {campaignStats}
       {impressionStats}
-      <div className="campaign__status">
+      <div className="campaign__status__wrapper">
         <CampaignStatus campaign={campaign} />
       </div>
       <SocialMediaIcons />

@@ -1,25 +1,16 @@
-// import { createStore, applyMiddleware, compose } from 'redux'
-// import createHistory from 'history/createBrowserHistory'
-// import rootReducer from './reducers'
-// import { composeWithDevTools } from 'redux-devtools-extension'
+import { createStore, applyMiddleware, compose } from 'redux'
+import createHistory from 'history/createBrowserHistory'
+import { reducer } from './reducer'
+import thunk from 'redux-thunk';
 
-// export const history = createHistory()
+export const history = createHistory()
 
-// const initialState = {}
-// const enhancers = []
+const store = createStore(
+  reducer,
+  compose(
+    applyMiddleware(thunk),
+    window.devToolsExtension ? window.devToolsExtension() : f => f
+  )
+)
 
-// if (process.env.NODE_ENV === 'development') {
-//   const devToolsExtension = window.__REDUX_DEVTOOLS_EXTENSION__
-
-//   if (typeof devToolsExtension === 'function') {
-//     enhancers.push(devToolsExtension())
-//   }
-// }
-
-
-// const store = createStore(
-//   rootReducer,
-//   initialState
-// )
-
-// export default store
+export default store

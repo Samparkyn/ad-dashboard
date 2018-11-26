@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom'
-import { CampaignList } from './components/campaign-list';
-import { CampaignOverview } from './components/campaign-overview';
+import CampaignList from './components/campaign-list';
+import CampaignOverview from './components/campaign-overview';
 
 export const Routes = () => (
   <>
