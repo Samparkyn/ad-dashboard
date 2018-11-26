@@ -1,11 +1,43 @@
-.campaign-breakdown {
+@import "../../variables";
 
-  &__details {
+.campaign-breakdown {
+  &__row {
+    height: $campaign-breakdown-row-height;
     display: flex;
+    align-items: center;
+    border-bottom: 1px solid $color-grey-5;
   }
 
   &__image {
     width: 16px;
     height: 16px;
+    margin-right: $spacing-sm;
+  }
+
+  &__name {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  &__clicks {
+    width: 15%;
+  }
+
+  &__impressions {
+    width: 20%;
+  }
+
+  &__cpc {
+    width: 20%;
+  }
+
+  &__budget {
+    width: 20%;
+
+    .campaign-stats__container {
+      justify-content: flex-end;
+    }
   }
 }
