@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { CampaignRow } from '../CampaignRow'
+import { CampaignRow } from '../campaign-row'
 
 import './styles.scss'
 

@@ -1,7 +1,8 @@
 import React from 'react';
 import { CampaignOverviewNav } from '../campaign-overview-nav';
-import { CampaignStats } from '../CampaignStats/campaign-stats';
+import { CampaignStats } from '../campaign-stats';
 import { CampaignBreakdown } from '../campaign-breakdown';
+import './styles.scss'
 
 const campaignData = require('../../mock-campaign-data.json')
 
