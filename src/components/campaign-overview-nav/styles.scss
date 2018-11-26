@@ -1,16 +1,16 @@
 @import "../../variables";
 
-.campaign-overview {
-
-  &__details {
-    &__container {
-      margin-left: $spacing-lg;
-    }
-    &__name {
-
-    }
-    &__date {
-
-    }
+.overview-nav {
+  margin-top: $spacing-lg;
+  
+  &__container {
+    display: flex;
+  }
+  
+  &__link {
+    text-decoration: none;
+    display: flex;
+    color: $color-grey;
+    opacity: 0.65;
   }
 }

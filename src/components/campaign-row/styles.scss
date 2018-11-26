@@ -49,38 +49,6 @@
     min-width: 100px;
   }
 
-  &__status {
-
-    &__container {
-      width: 20%;
-      display: flex;
-      justify-content: center;
-    }
-
-    &__button {
-      font-weight: 500;
-      border-radius: 25px;
-      width: 91px;
-      height: 32px;
-      justify-content: center;
-      align-items: center;
-      display: flex;
-  
-      &-published {
-        border: solid 2px #1bd3b4;
-        color: #1bd3b4;
-      }
-      &-reviewing {
-        border: solid 2px #f0cc18;
-        color: #f0cc18;
-      }
-      &-paused {
-        border: solid 2px #ea4335;
-        color: #ea4335;
-      }
-    }
-  }
-
   &__social {
     display: flex;
     flex-direction: row;

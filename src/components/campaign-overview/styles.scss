@@ -1,11 +1,18 @@
 @import "../../variables";
 
-.overview-nav {
-  display: flex;
-  margin-top: $spacing-lg;
-  color: $color-grey;
-  opacity: 0.65;
-}
+.campaign-overview {
+
+  &__details {
+    &__container {
+      margin-left: $spacing-lg;
+    }
+    &__name {
+
+    }
+    &__date {
+
+    }
+  }
   
   &__stats {
     width: 100%;

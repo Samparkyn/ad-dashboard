@@ -1,16 +1,14 @@
 import React from 'react';
-import classnames from 'classnames';
+import { CampaignStatus } from '../campaign-status'
+import { CampaignStats } from '../campaign-stats'
+
 import './styles.scss'
-import { CampaignStats } from '../CampaignStats/campaign-stats'
 
 export const CampaignRow = ({ campaign }) => {
   const clicksValue = campaign.stats.no_of_clicks;
   const impressionsValue = campaign.stats.impressions;
   const clicksPercentage = campaign.stats.clicks_percent_change;
   const impressionsPercentage = campaign.stats.impressions_percent_change;
-  const isPublished = campaign.status === "Published"
-  const isReviewing = campaign.status === "Reviewing"
-  const isPaused = campaign.status === "Paused"
 
   const campaignImage = (
     <div className="campaign__image__wrapper">
@@ -37,18 +35,6 @@ export const CampaignRow = ({ campaign }) => {
     </div>
   )
 
-  const campaignStatus = (
-    <div className="campaign__status__container">
-      <div className={classnames('campaign__status__button', {
-        "campaign__status__button-published": isPublished,
-        "campaign__status__button-reviewing": isReviewing,
-        "campaign__status__button-paused": isPaused
-      })}>
-        <span>{campaign.status}</span>
-      </div>
-    </div>
-  );
-
   const campaignSocial = (
     <div className="campaign__social">
       <div>
@@ -69,7 +55,7 @@ export const CampaignRow = ({ campaign }) => {
       {campaignInfo}
       {campaignStats}
       {impressionStats}
-      {campaignStatus}
+      <CampaignStatus campaign={campaign} />
       {campaignSocial}
     </div>
   )
