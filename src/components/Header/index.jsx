@@ -19,11 +19,11 @@ const Header = () => {
             <SchoolIcon className="icon" />
             NanosU
           </NavLink>
-          <NavLink activeClassName="active-link" className="header__link" to="/settings">
+          <NavLink activeClassName="active-link" className="header__link" to="/#">
             <SettingsIcon className="icon" />
             Settings
           </NavLink>
-          <NavLink activeClassName="active-link" className="header__link" to="/account">Julia Smith</NavLink>
+          <NavLink activeClassName="active-link" className="header__link" to="/#">Julia Smith</NavLink>
           <img className="avatar" src="/mock-user-avatar.jpg" alt="avatar"></img>
         </div>
       </div>

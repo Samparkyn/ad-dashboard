@@ -13,6 +13,12 @@
     color: #979797;
     border-bottom: solid 1px rgba(151, 151, 151, 0.5);
     padding: 20px;
+
+    &:first-child {
+      color: $color-black;
+      font-weight: bold;
+    }
+
   }
 
   &__helpbox {

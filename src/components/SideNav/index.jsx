@@ -23,11 +23,11 @@ const SideNav = ({ location }) => {
         <PublicIcon className="icon" />
         Campaigns
       </NavLink>
-      <NavLink activeClassName="active-link" className="sidenav__link" to="/businesses">
+      <NavLink activeClassName="active-link" className="sidenav__link" to="/#">
         <PublicIcon className="icon" />
         Businesses
       </NavLink>
-      <NavLink activeClassName="active-link" className="sidenav__link" to="/payments">
+      <NavLink activeClassName="active-link" className="sidenav__link" to="/#">
         <PublicIcon className="icon" />
         Payments
       </NavLink>
