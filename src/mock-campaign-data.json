@@ -23,7 +23,7 @@
         "impressions": 435,
         "impressions_percent_change": 22,
         "cpc": 0.23,
-        "cpc_percentage_change": 6,
+        "cpc_percent_change": 6,
         "budget_remaining": 140
       },
       "instagram": {
@@ -32,7 +32,7 @@
         "impressions": 150,
         "impressions_percent_change": 22,
         "cpc": 0.23,
-        "cpc_percentage_change": 6,
+        "cpc_percent_change": 6,
         "budget_remaining": 140
       },
       "google": {
@@ -41,7 +41,7 @@
         "impressions": 240,
         "impressions_percent_change": 22,
         "cpc": 0.21,
-        "cpc_percentage_change": 6,
+        "cpc_percent_change": 6,
         "budget_remaining": 140
       }
     }

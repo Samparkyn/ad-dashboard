@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 import SettingsIcon from '@material-ui/icons/Settings'
 import SchoolIcon from '@material-ui/icons/School'
-import './header.scss'
+import './styles.scss'
 
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
           </NavLink>
         </div>
         <div className="header__container-right">
-          <NavLink activeClassName="active-link" className="header__link" to="/campaign-overview">
+          <NavLink activeClassName="active-link" className="header__link" to="/campaigns">
             <SchoolIcon className="icon" />
             NanosU
           </NavLink>

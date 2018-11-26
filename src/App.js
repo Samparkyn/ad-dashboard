@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Router } from 'react-router'
+import { Router } from 'react-router';
 
-import Header from './components/Header/index'
-import SideNav from './components/SideNav/index'
-import Grid from '@material-ui/core/Grid/Grid'
+import Header from './components/header';
+import { Footer } from './components/footer';
+import SideNav from './components/sidenav';
+import Grid from '@material-ui/core/Grid/Grid';
 //import { Provider } from 'react-redux'
 // import { createStore } from 'redux'
-import './App.scss';
 
 import createBrowserHistory from "history/createBrowserHistory";
 import { Routes } from './routes'
@@ -29,6 +29,7 @@ class App extends Component {
                 <Routes />
               </Grid>
             </Grid>
+            <Footer />
           </>
         </Router>
       </div>

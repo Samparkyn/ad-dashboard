@@ -1,6 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
-import './campaign-row.scss'
+import './styles.scss'
 import { CampaignStats } from '../CampaignStats/campaign-stats'
 
 export const CampaignRow = ({ campaign }) => {

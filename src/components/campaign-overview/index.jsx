@@ -1,6 +1,7 @@
 import React from 'react';
-import { CampaignOverviewNav } from './campaign-overview-nav';
+import { CampaignOverviewNav } from '../campaign-overview-nav';
 import { CampaignStats } from '../CampaignStats/campaign-stats';
+import { CampaignBreakdown } from '../campaign-breakdown';
 
 const campaignData = require('../../mock-campaign-data.json')
 
@@ -19,25 +20,27 @@ export const CampaignOverview = ({ match }) => {
 
   const campaignDetails = (
     <div className="campaign-overview__details__container">
-      <div className="campaign-overview__details__name">name</div>
-      <div className="campaign-overview__details__container">started on...</div>
+      <div className="campaign-overview__details__name">{campaign.name}</div>
+      <div className="campaign-overview__details__date">Started on {campaign.start_date}</div>
     </div>
   )
 
   const campaignStats = (
     <div className="campaign-overview__stats__container">
-      <div className="campaign-overview__stats__image">
-        <img src={campaign.image} alt="campaign" />
+      <div className="campaign-overview__stats__image__wrapper">
+        <img src={campaign.image} alt="campaign" className="campaign-overview__stats__image" />
       </div>
-      <div className="campaign-overview__stats__section">
-        <div className="campaign-overview__stats__section__header">
-          Your customers
+      <div className="campaign-overview__stats">
+        <div className="campaign-overview__stats__header">
+          Your Customers
         </div>
-        <div className="campaign-overview__stats__section__content">
-          <CampaignStats value={clicksValue} percentageChange={clicksPercentage} label="clicks" />
-          <CampaignStats value={impressionsValue} percentageChange={impressionsPercentage} label="impressions" />
-          <CampaignStats value={cpcValue} percentageChange={cpcPercentage} label="avg CPC" />
-          <div className="campaign-overview__stats__section__content__last">
+        <div className="campaign-overview__stats__content">
+          <div className="campaign-overview__stats__content__inner">
+            <CampaignStats value={clicksValue} percentageChange={clicksPercentage} label="clicks" />
+            <CampaignStats value={impressionsValue} percentageChange={impressionsPercentage} label="impressions" />
+            <CampaignStats value={cpcValue} percentageChange={cpcPercentage} label="avg CPC" />
+          </div>
+          <div className="campaign-overview__stats__content__budget">
             <CampaignStats value={budgetLeft} label="budget left $" />
             <CampaignStats value={daysLeft} label="days left" />
           </div>
@@ -52,14 +55,14 @@ export const CampaignOverview = ({ match }) => {
         Breakdown
       </div>
       <div className="campaign-overview__breakdown__list">
-        {/* <CampaignBreakdown campaign={campaign} /> */}
+        <CampaignBreakdown campaign={campaign} />
       </div>
     </div>
   )
 
   return (
     <div className="campaign-overview__container">
-      <CampaignOverviewNav />
+      <CampaignOverviewNav campaign={campaign} />
       {campaignDetails}
       {campaignStats}
       {campaignBreakdown}

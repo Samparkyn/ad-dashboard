@@ -5,7 +5,7 @@ import { CampaignOverview } from './components/campaign-overview';
 
 export const Routes = () => (
   <>
-    <Route exact path="/campaign-overview" component={CampaignList} />
+    <Route exact path="/campaigns" component={CampaignList} />
     <Route exact path="/campaign/:id" component={CampaignOverview} />
   </>
 )

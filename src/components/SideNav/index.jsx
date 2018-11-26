@@ -2,12 +2,12 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Grid from '@material-ui/core/Grid/Grid'
 import PublicIcon from '@material-ui/icons/Public'
-import './sidenav.scss'
+import './styles.scss'
 
 const SideNav = () => {
   return (
     <Grid item xs={12} className="sidenav">
-      <NavLink activeClassName="active-link" className="sidenav__link" to="/campaign-overview">
+      <NavLink activeClassName="active-link" className="sidenav__link" to="/campaigns">
         <PublicIcon className="icon" />
         Campaigns
         </NavLink>

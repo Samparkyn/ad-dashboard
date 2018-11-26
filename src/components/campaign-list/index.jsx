@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { CampaignRow } from '../CampaignRow/index'
+import { CampaignRow } from '../CampaignRow'
 
-import './campaign-list.scss'
+import './styles.scss'
 
 const campaignData = require('../../mock-campaign-data.json')
 
@@ -19,6 +19,7 @@ export class CampaignList extends Component {
     return (
       <div className="list__container">
         {campaignRows}
+        <button>Create A Campaign</button>
       </div>
     )
   }
