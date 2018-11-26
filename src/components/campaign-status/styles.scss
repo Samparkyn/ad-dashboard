@@ -1,16 +1,17 @@
 .campaign__status {
-  width: 20%;
   display: flex;
   justify-content: center;
 
   &__button {
-    font-weight: 500;
+    font-weight: bold;
+    font-size: 15px;
     border-radius: 25px;
     width: 91px;
     height: 32px;
     justify-content: center;
     align-items: center;
     display: flex;
+    min-width: 91px;
 
     &-published {
       border: solid 2px #1bd3b4;

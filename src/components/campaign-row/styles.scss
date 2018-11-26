@@ -1,7 +1,6 @@
 @import "../../variables";
 
 .campaign {
-
   &__container {
     // padding: $spacing-md $spacing-lg $spacing-lg $spacing-sm;
     padding-left: $spacing-md;
@@ -49,13 +48,7 @@
     min-width: 100px;
   }
 
-  &__social {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-
-    > div + div {
-      margin-left: 1rem;
-    }
+  &__status {
+    width: 20%;
   }
 }

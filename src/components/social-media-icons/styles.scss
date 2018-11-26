@@ -1,0 +1,9 @@
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+
+  > div + div {
+    margin-left: 1rem;
+  }
+}

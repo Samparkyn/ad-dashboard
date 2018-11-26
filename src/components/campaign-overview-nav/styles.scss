@@ -1,16 +1,41 @@
 @import "../../variables";
 
 .overview-nav {
-  margin-top: $spacing-lg;
   
   &__container {
+    margin-top: $spacing-lg;
+    margin-bottom: $spacing-lg;
     display: flex;
+    align-items: center;
+
+    &__left {
+      display: flex;
+      align-items: center;
+    }
+
+    &__right {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+    }
   }
   
   &__link {
     text-decoration: none;
-    display: flex;
     color: $color-grey;
     opacity: 0.65;
+    height: 24px;
+
+    & + & {
+      margin-left: $spacing-lg
+    }
+
+    &-active,
+    &:hover {
+      color: $color-black;
+      opacity: 1;
+      font-weight: bold;
+      border-bottom: 4px solid $color-blue-0
+    }
   }
 }

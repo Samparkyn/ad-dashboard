@@ -1,6 +1,7 @@
 import React from 'react';
-import { CampaignStatus } from '../campaign-status'
-import { CampaignStats } from '../campaign-stats'
+import { CampaignStatus } from '../campaign-status';
+import { CampaignStats } from '../campaign-stats';
+import { SocialMediaIcons } from '../social-media-icons';
 
 import './styles.scss'
 
@@ -35,28 +36,16 @@ export const CampaignRow = ({ campaign }) => {
     </div>
   )
 
-  const campaignSocial = (
-    <div className="campaign__social">
-      <div>
-        <img src="/logo-facebook.png" alt="facebook"></img>
-      </div>
-      <div>
-        <img src="/logo-google.png" alt="google"></img>
-      </div>
-      <div>
-        <img src="/logo-instagram.png" alt="instagram"></img>
-      </div>
-    </div>
-  )
-
   return (
     <div className="campaign__container">
       {campaignImage}
       {campaignInfo}
       {campaignStats}
       {impressionStats}
-      <CampaignStatus campaign={campaign} />
-      {campaignSocial}
+      <div className="campaign__status">
+        <CampaignStatus campaign={campaign} />
+      </div>
+      <SocialMediaIcons />
     </div>
   )
 }
