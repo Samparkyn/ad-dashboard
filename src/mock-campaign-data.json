@@ -70,7 +70,7 @@
         "impressions": 15,
         "impressions_percent_change": 22,
         "cpc": 0.23,
-        "cpc_percentage_change": 6,
+        "cpc_percent_change": 6,
         "budget_remaining": 140
       },
       "instagram": {
@@ -79,7 +79,7 @@
         "impressions": 15,
         "impressions_percent_change": 22,
         "cpc": 0.23,
-        "cpc_percentage_change": 6,
+        "cpc_percent_change": 6,
         "budget_remaining": 140
       },
       "google": {
@@ -88,7 +88,7 @@
         "impressions": 15,
         "impressions_percent_change": 22,
         "cpc": 0.23,
-        "cpc_percentage_change": 6,
+        "cpc_percent_change": 6,
         "budget_remaining": 140
       }
     }
@@ -117,7 +117,7 @@
         "impressions": 15,
         "impressions_percent_change": 22,
         "cpc": 0.23,
-        "cpc_percentage_change": 6,
+        "cpc_percent_change": 6,
         "budget_remaining": 140
       },
       "instagram": {
@@ -126,7 +126,7 @@
         "impressions": 15,
         "impressions_percent_change": 22,
         "cpc": 0.23,
-        "cpc_percentage_change": 6,
+        "cpc_percent_change": 6,
         "budget_remaining": 140
       },
       "google": {
@@ -135,7 +135,7 @@
         "impressions": 15,
         "impressions_percent_change": 22,
         "cpc": 0.23,
-        "cpc_percentage_change": 6,
+        "cpc_percent_change": 6,
         "budget_remaining": 140
       }
     }
@@ -161,25 +161,28 @@
       "facebook": {
         "clicks": 38,
         "clicks_percent_change": 10,
-        "impressions": 15,
+        "impressions": 50,
+        "impressions_percent_change": 42,
         "cpc": 0.23,
-        "cpc_percentage_change": 6,
+        "cpc_percent_change": 6,
         "budget_remaining": 140
       },
       "instagram": {
         "clicks": 38,
         "clicks_percent_change": 10,
         "impressions": 15,
+        "impressions_percent_change": 12,
         "cpc": 0.23,
-        "cpc_percentage_change": -6,
+        "cpc_percent_change": -6,
         "budget_remaining": 140
       },
       "google": {
         "clicks": 38,
         "clicks_percent_change": 10,
         "impressions": 15,
+        "impressions_percent_change": 2,
         "cpc": 0.23,
-        "cpc_percentage_change": 6,
+        "cpc_percent_change": 6,
         "budget_remaining": 140
       }
     }
