@@ -23,14 +23,7 @@ https://github.com/dmitry-zaets/redux-mock-store
 #### Deployment
 Either deploy the static assets to a service like netlify, surge, or the github pages (simple upload), or run the docker image from a hosted server
 
-#### Notes
-- This app didn’t need any dependencies other than React/React-Router. Due to its simplicity, just using State would be enough to keep and pass the data around.
 
-- I’ve included Redux to demonstrate how it could be done using Axios to fetch the data and redux-thunk middleware to handle the promises.
-
- - Since this app didn’t require complex side-effects, there was no need for redux-saga.
-
- 
 #### Error handling
 - Since I was in full control of the data flow and time was short, I didn’t include any error handling besides the redux actions.
 
@@ -40,11 +33,24 @@ Either deploy the static assets to a service like netlify, surge, or the github 
 
 
 #### Bonus point
-For the extra screen, I would use a charts library like highcharts, and include some nice bar and pie charts based on the data being loaded from the server
+For the extra screen, I would use a charts library like highcharts, and include some nice bar and pie charts based on the data being loaded from the server.
+
+
+#### Notes
+- This app didn’t need any dependencies other than React/React-Router. Due to its simplicity, just using State would be enough to keep and pass the data around.
+
+- I’ve included Redux to demonstrate how it could be done using Axios to fetch the data and redux-thunk middleware to handle the promises.
+
+ - Since this app didn’t require complex side-effects, there was no need for redux-saga.
+
+ - I used Material UI for certain aspects, such as the Grid in places and for Icons. However, then chose to use mainly css to style the app.
+
+ - I used `create-react-app` to initially set up the project.
 
 
 #### Improvements
-- Could add a bit of extra polishing, for example some hover and active effects
+- Add a bit of extra polishing, for example some hover and active effects on more of the links, or on each campaign row.
 - Tests
+- The app is currently optimized for desktop screen sizes, as per the designs. In order to make the app look good on all screen sizes I would add media queries to change the layout, reduce the font size as the screen size decreases. 
 
 Thanks for looking! :-)
