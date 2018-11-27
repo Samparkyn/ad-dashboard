@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Router } from 'react-router';
 
-import Header from './components/header';
+import Header from './components/app-header';
 import { Footer } from './components/footer';
-import SideNav from './components/sidenav';
+import SideNav from './components/side-nav';
 
 import { Provider } from 'react-redux'
 
