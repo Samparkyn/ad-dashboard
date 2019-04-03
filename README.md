@@ -53,4 +53,7 @@ For the extra screen, I would use a charts library like highcharts, and include 
 - Tests
 - The app is currently optimized for desktop screen sizes, as per the designs. In order to make the app look good on all screen sizes I would add media queries to change the layout, reduce the font size as the screen size decreases. 
 
+#### Screenshots
+
+
 Thanks for looking! :-)
