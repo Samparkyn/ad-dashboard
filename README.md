@@ -56,4 +56,6 @@ For the extra screen, I would use a charts library like highcharts, and include 
 #### Screenshots
 <img width="1280" alt="addashboard" src="https://user-images.githubusercontent.com/12548530/55457515-70854080-55ea-11e9-9e87-6e9035b88c95.png">
 
+<img width="1276" alt="adddashboard2" src="https://user-images.githubusercontent.com/12548530/55457574-9f031b80-55ea-11e9-99f1-a80a2400616f.png">
+
 Thanks for looking! :-)
