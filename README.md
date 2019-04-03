@@ -54,6 +54,6 @@ For the extra screen, I would use a charts library like highcharts, and include 
 - The app is currently optimized for desktop screen sizes, as per the designs. In order to make the app look good on all screen sizes I would add media queries to change the layout, reduce the font size as the screen size decreases. 
 
 #### Screenshots
-
+<img width="1280" alt="addashboard" src="https://user-images.githubusercontent.com/12548530/55457515-70854080-55ea-11e9-9e87-6e9035b88c95.png">
 
 Thanks for looking! :-)
